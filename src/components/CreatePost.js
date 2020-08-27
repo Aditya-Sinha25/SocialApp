@@ -17,7 +17,7 @@ class CreatePost extends Component{
 
     handleChange = (e) =>{
         this.setState({
-            content:e.taget.value,
+            content:e.target.value,
         });
     };
 
